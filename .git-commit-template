@@ -1,0 +1,17 @@
+# <Type>(<subject>): (Description)
+# feat(首页): 添加了新首页 Close #27
+
+# --- COMMIT END ---
+
+# Type can be
+#    feat     (新功能)
+#    fix      (修复bug)
+#    refactor (业务代码重构)
+#    perf     (性能优化类重构)
+#    style    (代码格式调整：例如删除空行、分号、调整缩进)
+#    docs     (文档类修改)
+#    test     (所有测试类代码)
+#    chore    (不影响生产环境的代码修改，比如：自动构建类代码)
+
+# 使用方法:执行一次即可
+# git config commit.template .cella-git-commit-template

@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-base-boilerplate",
+  "description": "A boilerplate for node.js server-side project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "git@github.com:10cella/nodejs-base-boilerplate.git",
+  "author": "Gongzili <gongzili456@gmail.com>",
+  "scripts": {
+    "debug": "DEBUG=app*,-babel nodemon index.js babel-node --harmony"
+  },
+  "dependencies": {
+    "boom": "^7.1.1",
+    "config": "^1.29.0",
+    "debug": "^3.1.0",
+    "joi": "^13.1.0",
+    "js-yaml": "^3.10.0",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-joi-validator": "^4.0.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "require-dir": "^0.3.2",
+    "standard-http-error": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "eslint": "^4.14.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "nodemon": "^1.14.7",
+    "prettier": "^1.9.2"
+  }
+}

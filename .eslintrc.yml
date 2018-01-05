@@ -22,3 +22,4 @@ rules:
     semi: false
     singleQuote: true
     trailingComma: all
+    eslintIntegration: true

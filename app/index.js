@@ -18,16 +18,16 @@ APP.use(logger())
  * Error Handle
  */
 APP.use(async (ctx, next) => {
-    try {
-        await next()
-    } catch (error) {
-        debug(`Request handle process occurred error, status is ${error.status}`)
-        debug(error)
-        ctx.status = error.status || 500
-        ctx.body = new Boom(error.message, {
-            statusCode: ctx.status
-        }).output.payload
-    }
+  try {
+    await next()
+  } catch (error) {
+    debug(`Request handle process occurred error, status is ${error.status}`)
+    debug(error)
+    ctx.status = error.status || 500
+    ctx.body = new Boom(error.message, {
+      statusCode: ctx.status,
+    }).output.payload
+  }
 })
 
 /**
@@ -46,5 +46,5 @@ APP.use(router().allowedMethods())
  */
 const PORT = process.env.PORT || 8000
 APP.listen(PORT, () => {
-    console.log(`Server listening on ${PORT}`)
+  console.log(`Server listening on ${PORT}`)
 })

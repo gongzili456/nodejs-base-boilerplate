@@ -54,3 +54,19 @@
   "javascript.format.enable": false,
   "prettier.eslintIntegration": true
 ```
+
+## 代码提交
+
+将 `git commit teplate` 配置项目中
+
+```
+git config commit.template .git-commit-template
+```
+
+以后每次提交的时候只输入
+
+```
+git commit
+```
+
+然后使用 `vim` 编辑文件, 保存退出后即可提交

@@ -47,6 +47,8 @@
 
 ## VSCode 配置
 
+安装 `Prettier-Code formatter` 插件
+
 使用 `CMD + ,` 打开 VSCode 的配置界面, 在 `USER SETTINGS` 栏里面输入下面配置
 
 ```

@@ -7,6 +7,7 @@
   "repository": "git@github.com:10cella/nodejs-base-boilerplate.git",
   "author": "Gongzili <gongzili456@gmail.com>",
   "scripts": {
+    "postinstall": "git config commit.template .git-commit-template",
     "debug": "DEBUG=app*,-babel nodemon index.js babel-node --harmony"
   },
   "dependencies": {

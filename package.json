@@ -21,6 +21,8 @@
     "koa-joi-validator": "^4.0.0",
     "koa-logger": "^3.1.0",
     "koa-router": "^7.3.0",
+    "pg-hstore": "^2.3.2",
+    "ph": "^0.1.10",
     "require-dir": "^0.3.2",
     "sequelize": "^4.29.3",
     "standard-http-error": "^2.0.1"

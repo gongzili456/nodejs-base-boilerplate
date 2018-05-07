@@ -54,7 +54,10 @@
 ```
   "editor.formatOnSave": true,
   "javascript.format.enable": false,
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
+  "prettier.semi": false
 ```
 
 ## 代码提交

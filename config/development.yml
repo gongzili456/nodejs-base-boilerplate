@@ -1,5 +1,5 @@
 db:
-  uri: uri
+  uri: postgres://user:password@host:5432/db
   options:
     dialectOptions:
       charset: utf8mb4

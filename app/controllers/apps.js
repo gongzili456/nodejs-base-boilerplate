@@ -1,7 +1,7 @@
 import HttpErrors from 'http-errors'
 import _ from 'lodash'
 import Debug from 'debug'
-import { sequelize, App } from '../modles'
+import { sequelize, App } from '../models'
 
 export async function listApps(ctx) {
   const apps = await App.findAll()

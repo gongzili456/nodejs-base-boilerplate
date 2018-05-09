@@ -1,0 +1,8 @@
+db:
+  uri: postgres://user:password@host:5432/db
+  options:
+    dialectOptions:
+      charset: utf8mb4
+      collate: utf8mb4_unicode_ci
+      supportBigNumbers: true
+      bigNumberStrings: true

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  production:
+    build: 
+      context: .
+      args:
+        NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+    ports:
+      - 8080:8080
+    command: node index.js
+    

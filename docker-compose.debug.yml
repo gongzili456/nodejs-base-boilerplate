@@ -2,13 +2,14 @@ version: '3'
 
 services:
   development:
+    volumes:
+      - .:/usr/src/app # 将本地当前目录映射到容器中的工作目录，方便监听文件改动时自动重启node Server
     build: 
       context: .
       args:
-        NODE_ENV: development
+        NODE_ENV: development # 编译时（Build）环境变量
     environment:
-      - NODE_ENV=development
+      - NODE_ENV=development # 运行时（Runtime）环境变量
     ports:
       - 8080:8080
-      - 9229:9229
-    command: node --inspect=0.0.0.0:9229 index.js
+    command: yarn debug-local # 执行 package.json 中的脚本

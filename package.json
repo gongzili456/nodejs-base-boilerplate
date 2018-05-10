@@ -7,7 +7,9 @@
   "repository": "git@github.com:10cella/nodejs-base-boilerplate.git",
   "author": "Gongzili <gongzili456@gmail.com>",
   "scripts": {
-    "debug": "DEBUG=app*,-babel nodemon index.js babel-node --harmony"
+    "debug-local": "DEBUG=app*,-babel nodemon index.js babel-node --harmony",
+    "start": "docker-compose up --build",
+    "dev": "docker-compose -f ./docker-compose.debug.yml up --build"
   },
   "dependencies": {
     "boom": "^7.1.1",

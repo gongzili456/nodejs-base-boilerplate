@@ -19,7 +19,7 @@ Develop on your local env:
 │   ├── controllers
 │   │   └── .gitkeep
 │   ├── index.js
-│   ├── modles
+│   ├── models
 │   │   └── .gitkeep
 │   └── routers
 │       ├── index.js

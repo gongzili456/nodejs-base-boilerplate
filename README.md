@@ -1,5 +1,11 @@
 # 项目模板
 
+## How to run
+
+Develop on your local env:
+
+`yarn dev` used docker or not `yarn debug-local`
+
 ## 项目目录
 
 ```

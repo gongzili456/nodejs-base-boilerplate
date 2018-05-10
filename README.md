@@ -36,7 +36,7 @@ Develop on your local env:
 * package.json: 项目描述文件
 * app: 所有业务逻辑代码
   * controllers: 控制器层目录
-  * modles: 数据模型层目录
+  * models: 数据模型层目录
   * routers: 路由目录
   * index.js: 业务代码主文件
 * config: 项目配置目录
